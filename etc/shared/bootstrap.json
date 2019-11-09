@@ -1,6 +1,6 @@
 {
    "Type_" : "SelfInstance",
-   "m_Agents" : [
+   "m_Agents" : [ 
       {
 		"Type_" : "PluginAgent",
 		"m_PluginPath" : "shared/plugins/",
@@ -291,7 +291,7 @@
                "m_IntentOverride" : "m_IntentOverride",
                "m_PreCacheFile" : "shared/conversation-precache.txt",
                "m_ServiceId" : "ConversationV1",
-               "m_WorkspaceId" : "8432262a-a3fb-4d45-851c-44180d7d75ad",
+               "m_WorkspaceId" : "0499b6ae-7a4c-4170-9312-7ba6aaba003f",
                "m_WorkspaceKey" : "self_wex",
                "m_bPriority" : false
             },
@@ -311,7 +311,7 @@
                "m_IntentOverride" : "m_IntentOverride",
                "m_PreCacheFile" : "shared/conversation-precache.txt",
                "m_ServiceId" : "ConversationV1",
-               "m_WorkspaceId" : "a410e51b-6ef8-4740-b8c3-ab6f06a37662",
+               "m_WorkspaceId" : "bdf8e6b4-5020-4a7f-9b85-212455f7e22b",
                "m_WorkspaceKey" : "self_dialog",
                "m_bPriority" : false
             }
@@ -391,7 +391,7 @@
       {
          "Type_" : "ImageClassifier",
          "m_ClassifierDate" : "2016-11-14T06:47:45.320Z",
-         "m_ClassifierId" : "self_567727091",
+         "m_ClassifierId" : "tR_bSqb8PB5L0DW1zVRn1D-8j4LpfFzpvq9qXM1ciQ2DDx7BQ-CP8edRq3mTXCat",
          "m_ClassifierName" : "self",
          "m_MaxCacheSize" : 104857600,
          "m_MinClassifyConfidence" : 0.40000000000000002,
@@ -476,7 +476,7 @@
    "m_LogoUrl" : "http://66.media.tumblr.com/292014cfdbec82ae24e672aaf2fb41c8/tumblr_o6k2spJ4H01s8c9jeo1_400.gif",
    "m_MacId" : "",
    "m_PlanFiles" : [ "shared/plans/default.json", "shared/plans/wayblazer.json" ],
-   "m_RobotName" : "Willow",
+   "m_RobotName" : "Junior",
    "m_RobotType" : "",
    "m_RobotUrl" : "tcp://127.0.0.1",
    "m_SelfVersion" : "0.0.0",
@@ -528,7 +528,7 @@
          "m_Password" : "",
          "m_ServiceId" : "RobotGatewayV1",
          "m_URL" : "https://rg-gateway.mybluemix.net",
-         "m_User" : ""
+         "m_Username" : ""
       },
       {
          "m_Password" : "",
@@ -537,28 +537,25 @@
          "m_User" : ""
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "ToneAnalyzerV1",
          "m_URL" : "https://gateway.watsonplatform.net/tone-analyzer/api",
-         "m_User" : ""
+         "m_Apikey" : "CdQLLlIXVSGzGaIR1f2fDQCsKnAOmJViovO9c-bIzDbz"
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "SpeechToTextV1",
          "m_URL" : "https://stream.watsonplatform.net/speech-to-text/api",
-         "m_User" : ""
+         "m_Apikey" : "D38voYP4NloGvZkiLxBjhaIViBct6ZRQkoUQJtzn5G3H"
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "TextToSpeechV1",
          "m_URL" : "https://stream.watsonplatform.net/text-to-speech/api",
-         "m_User" : ""
+         "m_Apikey" : "LuPk9eUjD56pO8JQ5dtm5o5d6boEY-wEK-kdkNqEmc3o"
       },
       {
          "m_Password" : "",
          "m_ServiceId" : "NaturalLanguageClassifierV1",
          "m_URL" : "https://gateway.watsonplatform.net/natural-language-classifier/api",
-         "m_User" : ""
+         "m_Apikey" : ""
       },
       {
          "m_Password" : "",
@@ -570,25 +567,22 @@
          "m_Password" : "",
          "m_ServiceId" : "RelationshipExtractionV1",
          "m_URL" : "https://gateway.watsonplatform.net/relationship-extraction-beta/api",
-         "m_User" : ""
+         "m_Apikey" : ""
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "LanguageTranslatorV1",
          "m_URL" : "https://gateway.watsonplatform.net/language-translator/api",
-         "m_User" : ""
+         "m_Apikey" : "O53S2uyDSR81DkwAenwu_pbJmSCMHWGSKA-CBz0FmXuY"
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "VisualRecognitionV1",
          "m_URL" : "https://gateway-a.watsonplatform.net/visual-recognition/api",
-         "m_User" : ""
+         "m_Apikey" : "7s-eSQ_wxBXjVvLu8yUPILPMvnZoZGX-YJQ3eBeEYXn2"
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "NaturalLanguageUnderstandingV1",
          "m_URL" : "https://gateway.watsonplatform.net/natural-language-understanding/api",
-         "m_User" : ""
+         "m_Apikey" : "oWZ3XvjLAabeeN7mU4WEf-nzOv-GPPdHidcILiZ_Gm5A"
       },
       {
          "m_Password" : "",
@@ -603,10 +597,9 @@
          "m_User" : ""
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "ConversationV1",
-         "m_URL" : "https://gateway.watsonplatform.net/conversation/api",
-         "m_User" : ""
+         "m_URL" : "https://gateway.watsonplatform.net/assistant/api",
+         "m_Apikey" : "rHhtquUO-lRRy_QYCYt1HzqwPNCPlw-rrj5Jkbh2SRZm"
       },
       {
          "m_Password" : "",
@@ -630,13 +623,12 @@
          "m_Password" : "",
          "m_ServiceId" : "IVAV1",
          "m_URL" : "https://169.54.186.28/milsng/user/SVSProxy",
-         "m_User" : ""
+         "m_Apikey" : ""
       },
       {
-         "m_Password" : "",
          "m_ServiceId" : "PersonalityInsightsV1",
          "m_URL" : "https://gateway.watsonplatform.net/personality-insights/api",
-         "m_User" : ""
+         "m_Apikey" : "BppKXDI4ugoo6mXHHg3bCj3OLFR00uwVbQYlK5fZLMZ1"
       }
    ],
    "m_Services" : [
@@ -735,7 +727,7 @@
          "m_MaxCacheSize" : 5242880,
          "m_RequestTimeout" : 30,
          "m_ServiceId" : "ToneAnalyzerV1",
-         "m_Version" : "2016-05-19",
+         "m_Version" : "2017-09-21",
          "m_bCacheEnabled" : true
       },
       {
@@ -805,7 +797,7 @@
       },
       {
          "Type_" : "VisualRecognition",
-         "m_APIVersion" : "2016-05-20",
+         "m_APIVersion" : "2019-09-11",
          "m_ClassifyThreshold" : 0.035000000149011612,
          "m_MaxCacheAge" : 168,
          "m_MaxCacheSize" : 5242880,
@@ -823,7 +815,7 @@
       },
       {
          "Type_" : "Conversation",
-         "m_APIVersion" : "2016-07-11",
+         "m_APIVersion" : "2019-02-28",
          "m_CacheTag" : "[cache]",
          "m_MaxCacheAge" : 168,
          "m_MaxCacheSize" : 5242880,
@@ -853,7 +845,7 @@
          "m_MaxCacheSize" : 5242880,
          "m_RequestTimeout" : 30,
          "m_ServiceId" : "PersonalityInsightsV1",
-         "m_Version" : "2016-10-20",
+         "m_Version" : "2017-10-13",
          "m_bCacheEnabled" : true
       }
    ],
